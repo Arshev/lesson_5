@@ -1,0 +1,270 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block {
+	background-color: green;
+	color: #fff;
+	font-size: 30px;
+	margin: 50px;
+	padding: 30px;
+}
+.block_4_1 {
+	background-color: red;
+	color: #fff;
+	font-size: 30px;
+	margin: 10px;
+	padding: 30px;
+	width: 80%;
+}
+.block_4_2 {
+	background-color: rebeccapurple;
+	color: #fff;
+	font-size: 30px;
+	margin: 0px auto;
+	padding: 0 30px 20px 0;
+	width: 50%;
+}
+.block_4_3 {
+	background-color: gold;
+	color: #fff;
+	font-size: 30px;
+	margin: 0px auto 20px auto;
+	padding: 0px 0px 10px 10px;
+	width: 30%;
+}
+.block_4_4 {
+	background-color: #00ff88;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 0 0 auto;
+	padding: 30px;
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+}
+.block_5_1 {
+	background-color: red;
+	color: #fff;
+	font-size: 30px;
+	display: inline;
+	margin: 30px;
+}
+.block_5_2 {
+	background-color: tan;
+	color: #fff;
+	font-size: 30px;
+	display: inline;
+	padding: 30px;
+}
+.block_5_2 {
+	background-color: tan;
+	color: #fff;
+	font-size: 30px;
+	display: inline;
+	padding: 30px;
+	line-height: 130px;
+}
+.image_5_2 {
+	background-color: tan;
+	margin: 20px 0 0 0;
+}
+
+.block_5_3 {
+	background-color: indigo;
+	color: #fff;
+	font-size: 30px;
+	display: inline-block;
+	padding: 30px;
+	margin: 0px 0px 20px 20px;
+}
+.block_5_4 {
+	background-color: indigo;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+	padding: 30px;
+	margin: 0px 0px 20px 20px;
+}
+
+.inline {
+	background-color: #794f45;
+	color: #fff;
+	font-size: 30px;
+	width: 500px;
+	padding: 50px;
+	margin: 50px;
+}
+
+.image_1 {
+	padding: 50px;
+	background-color: yellowgreen;
+	margin: 0 auto;
+}
+.image_2 {
+	padding: 30px;
+	background-color: khaki;
+	height: 30%;
+}
+.image_3 {
+	padding: 30px;
+	background-color: #d46c0b;
+	margin: 30px;
+}
+.image_4 {
+	display: block;
+}
+.image_5 {
+	display: inline;
+	padding: 30px;
+	margin: 30px;
+	background-color: olive;
+}
+.image_6 {
+	min-width: 50%;
+	max-width: 80%;
+}
+.image_7 {
+	width: 20%;
+	height: 20%;
+	padding: 20px 0px 0px 0px;
+	display: block;
+	margin: 0 auto;
+	background-color: tomato;
+}
+
+
+.link_1 {
+	font-size: 80px;
+	color: red;
+	margin: 0px 0px 100px 0px;
+}
+.link_2 {
+	font-size: 80px;
+	color: red;
+	display: block;
+	margin: 0px 0px 100px 0px;
+}
+.link_3 {
+	font-size: 80px;
+	color: red;
+}
+.link_4 {
+	font-size: 80px;
+	color: red;
+	display: inline-block;
+	margin: 0px 50px;
+}
+.tech_div {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.link_5 {
+	font-size: 80px;
+	color: red;
+	display: block;
+}
+.new_string {
+	font-size: 30px;
+	display: block;
+	margin: 0 0 20px 0;
+}
+.korobochka {
+	font-size: 30px;
+	background-color: black;
+	margin: 0 auto;
+}
+.korobochka > div {
+	color: cornsilk;
+	display: inline-block;
+	min-width: 200px;
+	min-height: 200px;
+	max-width: 30%;
+	padding: 15px;
+}
+.link_top {
+	font-size: 30px;
+	color: red;
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+	background-color: royalblue;
+}
+.link_bottom {
+	font-size: 30px;
+	display: block;
+	background-color: #cf4a15;
+}
+
+.korobochka > p {
+	font-size: 20px;
+	color: #fff;
+	display: inline-block;
+	max-width: 100px;
+	margin: 0px 30px 0px 0px;
+	padding: 10px;
+}
+.base {
+	font-size: 30px;
+	padding: 30px;
+	color: #fff;
+	background-color: #70026b;
+	overflow: hidden;
+}
+.nasunut {
+	font-size: 30px;
+	padding: 30px;
+	color: #fff;
+	background-color: #02704b;
+	margin: -40px 0px 20px 0px;
+}
+.big_text {
+	font-size: 30px;
+	max-height: 200px;
+	display: block;
+	overflow: auto;
+	background-color: #deeb2f;
+}

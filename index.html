@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 5</title>
+</head>
+
+<body>
+	<!-- 1) Используя ВСЕ, изученные CSS свойства блоков, применяем их для блочных, 
+			строчный и блочно-строчных объектов. Также меняем свойства объектов с 
+			помощью display. 
+			Экспериментируем, чтобы понять и запомнить свойства и их значения.
+			2) Дополнительная задача:
+			2.1) Есть 4ре спана с текстом Привет! Нужно выстроить их каждый с новой строки.
+			2.2) Выстроить три дива с текстом в ряд. Каждый див не больше чем 200px в ширину 
+			и не больше чем 200px в высоту. Отступ от границ до контента 15px
+			2.3) Для ссылки с текстом ссылка, сделать внешний отступ вниз в 30px. 
+			При этом ссылка не должна быть шире чем текст в ней.
+			2.4) Выстроить 4ре параграфа с тектом в ряд. Ширина каждого не больше чем 100px. 
+			Отступ между ними 30px. Отступ от границ до контента 10px
+			2.5) Есть 2ва дива с текстом. Нужно нижний "насунуть" на верхний. 
+			Отступ от границ до контента 30px;
+			2.6) Есть спан с большим текстом. Нужно чтобы он был не более 200px по высоте 
+			и в нем был вертикальный скрол. -->
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<!-- Дополнительное -->
+			<span class="new_string">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro accusamus est inventore
+				minima? Accusantium magni quos, corrupti blanditiis, mollitia assumenda ut nesciunt quia quod perferendis eum,
+				rem fugiat a! Voluptatibus.</span>
+			<span class="new_string">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro accusamus est inventore
+				minima? Accusantium magni quos, corrupti blanditiis, mollitia assumenda ut nesciunt quia quod perferendis eum,
+				rem fugiat a! Voluptatibus.</span>
+			<span class="new_string">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro accusamus est inventore
+				minima? Accusantium magni quos, corrupti blanditiis, mollitia assumenda ut nesciunt quia quod perferendis eum,
+				rem fugiat a! Voluptatibus.</span>
+			<span class="new_string">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro accusamus est inventore
+				minima? Accusantium magni quos, corrupti blanditiis, mollitia assumenda ut nesciunt quia quod perferendis eum,
+				rem fugiat a! Voluptatibus.</span>
+			<div class="korobochka">
+				<div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, doloribus? Error nisi libero magni sint
+					eaque distinctio quas, enim veritatis in dolore! Aspernatur, ea natus! Accusamus numquam optio aliquam
+					consequuntur.</div>
+				<div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro animi vitae distinctio voluptas
+					reprehenderit dignissimos fuga! Veritatis sit dolorem totam exercitationem, eius qui neque, deserunt corrupti
+					voluptatibus ut magnam perspiciatis.</div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi reprehenderit, voluptas enim debitis
+					quae impedit. Eaque rem eius atque possimus officia reprehenderit nesciunt magni nisi. Et enim laboriosam
+					iusto dolore!</div>
+			</div>
+			<a href="" class="link_top">Я ссылка</a>
+			<div class="link_bottom">Граница</div>
+			<div class="korobochka">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta totam alias unde consequatur, facere eum
+					repellendus optio architecto tempore non assumenda doloremque nisi nulla explicabo ducimus ratione illo
+					aliquam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates facere omnis recusandae
+					voluptatem natus magni itaque amet provident aliquid quas dolore vel ex ipsum placeat, enim ad vero tempora!
+				</p>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum praesentium, corrupti voluptatem quia,
+					commodi quaerat enim vel, autem reprehenderit explicabo eos molestiae. Veniam soluta deleniti id sint animi
+					repellat nam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic soluta maxime illo repellendus odit fugit
+					molestiae, omnis consequatur nostrum voluptatibus, doloremque, minus nesciunt aspernatur. Quaerat excepturi
+					soluta sequi modi similique?</p>
+			</div>
+			<div class="base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolore expedita molestiae
+				commodi. Quam quo et ipsa harum consectetur illo qui deserunt perferendis dicta tempora eligendi, similique at,
+				voluptates natus.</div>
+			<div class="nasunut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius a ea veritatis explicabo,
+				fugiat quibusdam numquam distinctio minus rerum ad voluptatem consectetur autem voluptates. Odio beatae ea
+				asperiores laboriosam sint.</div>
+			<span class="big_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores animi perspiciatis explicabo ex neque
+				placeat delectus totam aliquid sint facilis officia, rerum mollitia est. Repellendus neque eaque minus odio
+				mollitia.
+				Eius voluptate vel doloribus molestiae accusamus ipsum minima, at architecto hic ut natus iusto praesentium
+				numquam porro consectetur officia, optio quasi aperiam sit eligendi odio harum error dolor? Animi, vero.
+				Dolorum doloremque repudiandae perspiciatis laudantium suscipit. Ea nulla accusamus sapiente cupiditate corporis
+				nobis unde explicabo provident. Quos blanditiis error omnis, veniam debitis, amet, voluptatum id eius eos
+				nostrum odio nam.
+				Eaque quia est odio eveniet beatae, sit sed laborum obcaecati quae dicta dolore similique. Impedit minima,
+				provident natus distinctio fugiat omnis deleniti perspiciatis voluptate suscipit voluptates, dolorem quia magnam
+				corrupti.
+				Eius voluptate vel doloribus molestiae accusamus ipsum minima, at architecto hic ut natus iusto praesentium
+				numquam porro consectetur officia, optio quasi aperiam sit eligendi odio harum error dolor? Animi, vero.
+				Dolorum doloremque repudiandae perspiciatis laudantium suscipit. Ea nulla accusamus sapiente cupiditate corporis
+				nobis unde explicabo provident. Quos blanditiis error omnis, veniam debitis, amet, voluptatum id eius eos
+				nostrum odio nam.
+				Eaque quia est odio eveniet beatae, sit sed laborum obcaecati quae dicta dolore similique. Impedit minima,
+				provident natus distinctio fugiat omnis deleniti perspiciatis voluptate suscipit voluptates, dolorem quia magnam
+				corrupti.
+			</span>
+			<!-- Моё -->
+			<div class="block">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_4_1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_4_2">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_4_3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_4_4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_5_1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_5_2">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+				<img src="img/01.png" class="image_5_2" width="150" alt="картинка">
+			</div>
+			<div class="block_5_3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_5_4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<div class="block_5_5" hidden>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur consequuntur? Commodi necessitatibus
+				inventore explicabo tempora perspiciatis sapiente, distinctio ab vero eum porro quos a saepe vel totam vitae
+				voluptatem!
+			</div>
+			<img src="img/01.png" class="image_1" width="200" alt="картинка">
+			<img src="img/01.png" class="image_2" width="200" alt="картинка">
+			<img src="img/01.png" class="image_3" width="200" alt="картинка">
+			<img src="img/01.png" class="image_4" width="200" alt="картинка">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			<img src="img/01.png" class="image_5" width="200" alt="картинка">
+			<img src="img/01.png" class="image_6" alt="картинка">
+			<img src="img/01.png" class="image_7" width="200" alt="картинка">
+			<a href="" class="link_1">Я ссылка</a>
+			<a href="" class="link_2">Я ссылка</a>
+			<a href="" class="link_3">Я ссылка</a>
+			<a href="" class="link_4">Я ссылка</a>
+			<div class="tech_div">
+				<a href="" class="link_5">Я ссылка</a>
+			</div>
+		</main>
+		<footer hidden class="footer"></footer>
+	</div>
+</body>
+
+</html>
